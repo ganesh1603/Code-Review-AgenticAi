@@ -7,7 +7,7 @@ import streamlit as st
 import os
 from crewai import Agent, Task, Crew, Process
 from crewai_tools import FileReadTool
-from langchain_google_genai import ChatGoogleGenerativeAI
+from crewai.llms import llm
 from dotenv import load_dotenv
 import tempfile
 import time
@@ -318,7 +318,7 @@ class DataProcessor:
         with st.spinner("🔄 AI Agents are analyzing your code..."):
             try:
                 # Initialize LLM
-                llm = ChatGoogleGenerativeAI(
+                llm = LLM(
                     model=model_option,
                     verbose=False,
                     temperature=temperature,
