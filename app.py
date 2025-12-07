@@ -12,6 +12,9 @@ from dotenv import load_dotenv
 import tempfile
 import time
 from datetime import datetime
+import os
+os.environ["GOOGLE_API_KEY"] = st.session_state.api_key
+
 
 # Page configuration
 st.set_page_config(
