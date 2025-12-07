@@ -4,3 +4,4 @@ streamlit
 crewai
 crewai-tools
 crewai[google-genai]
+litellm
