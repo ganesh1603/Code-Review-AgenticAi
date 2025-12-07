@@ -1,8 +1,8 @@
-streamlit==1.40.2
-crewai==0.54.0
-crewai-tools==0.4.0
+streamlit==1.32.2
+crewai==0.28.8
+crewai-tools==0.1.7
 python-dotenv==1.0.1
-langchain-google-genai==2.0.2
-langchain-core==0.3.21
-pydantic==2.7.4
-typing_extensions==4.12.2
+langchain-google-genai==1.0.5
+langchain-core==0.2.38
+pydantic==1.10.14
+typing_extensions==4.9.0
