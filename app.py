@@ -7,7 +7,7 @@ import streamlit as st
 import os
 from crewai import Agent, Task, Crew, Process
 from crewai_tools import FileReadTool
-from crewai.llms import llm
+from crewai.llm import LLM
 from dotenv import load_dotenv
 import tempfile
 import time
