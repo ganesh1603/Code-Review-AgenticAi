@@ -13,7 +13,7 @@ import tempfile
 import time
 from datetime import datetime
 import os
-os.environ["GOOGLE_API_KEY"] = st.session_state.api_key
+
 
 
 # Page configuration
@@ -104,6 +104,7 @@ with st.sidebar:
 
     if api_key_input:
         st.session_state.api_key = api_key_input
+        os.environ["GOOGLE_API_KEY"] = st.session_state.api_key
         st.success("✅ API Key configured")
     else:
         st.warning("⚠️ Please enter your Gemini API key")
