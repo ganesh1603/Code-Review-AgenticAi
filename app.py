@@ -171,6 +171,11 @@ with st.sidebar:
     with col2:
         st.metric("Active Agents", "5")
 
+    st.divider()
+    st.subheader("🔗LinkedIn and GitHub Repo Links")
+    
+    
+
 # Main content
 tab1, tab2, tab3, tab4 = st.tabs(
     ["📝 Code Input", "🔍 Review Results", "📚 Examples", "ℹ️ About"]
