@@ -173,7 +173,13 @@ with st.sidebar:
 
     st.divider()
     st.subheader("🔗LinkedIn and GitHub Repo Links")
-    
+    st.markdown(
+    """
+- 🔵 **[LinkedIn Profile](www.linkedin.com/in/ganesh-kumar-e1609)**
+- ⚫ **[GitHub Repository](https://github.com/ganesh1603/Code-Review-AgenticAi)**
+""",
+    unsafe_allow_html=True,
+
     
 
 # Main content
