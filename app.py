@@ -179,7 +179,7 @@ with st.sidebar:
 - ⚫ **[GitHub Repository](https://github.com/ganesh1603/Code-Review-AgenticAi)**
 """,
     unsafe_allow_html=True,
-
+    )
     
 
 # Main content
