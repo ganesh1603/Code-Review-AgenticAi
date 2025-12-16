@@ -183,13 +183,6 @@ with st.sidebar:
      style="text-decoration: none; font-size: 16px;">
       <strong>LinkedIn Profile</strong>
   </a>
-
-  <a href="https://github.com/ganesh1603/Code-Review-AgenticAi"
-     target="_blank"
-     rel="noopener noreferrer"
-     style="text-decoration: none; font-size: 16px;">
-      <strong>GitHub Repository</strong>
-  </a>
 </div>
 """,
     unsafe_allow_html=True,)
@@ -912,7 +905,6 @@ st.markdown(
     """
 <div style='text-align: center; color: #666; padding: 2rem;'>
     <p>🔍 AI Code Review System | Powered by CrewAI + Google Gemini</p>
-    <p>Made with Streamlit • Multi-Agent Architecture • Production Ready</p>
 </div>
 """,
     unsafe_allow_html=True,
