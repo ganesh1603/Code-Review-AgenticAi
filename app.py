@@ -172,8 +172,28 @@ with st.sidebar:
         st.metric("Active Agents", "5")
 
     st.divider()
-    st.subheader("🔗LinkedIn and GitHub Repo Links")
-    st.link_button("LinkedIN", "www.linkedin.com/in/ganesh-kumar-e1609")
+    st.subheader("🔗 Connect & Source")
+
+    st.markdown(
+    """
+<div style="display: flex; flex-direction: column; gap: 0.5rem;">
+  <a href="https://www.linkedin.com/in/ganesh-kumar-e1609"
+     target="_blank"
+     rel="noopener noreferrer"
+     style="text-decoration: none; font-size: 16px;">
+     🔵 <strong>LinkedIn Profile</strong>
+  </a>
+
+  <a href="https://github.com/USERNAME/REPO"
+     target="_blank"
+     rel="noopener noreferrer"
+     style="text-decoration: none; font-size: 16px;">
+     ⚫ <strong>GitHub Repository</strong>
+  </a>
+</div>
+""",
+    unsafe_allow_html=True,)
+
     
 
 # Main content
