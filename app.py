@@ -181,14 +181,14 @@ with st.sidebar:
      target="_blank"
      rel="noopener noreferrer"
      style="text-decoration: none; font-size: 16px;">
-     🔵 <strong>LinkedIn Profile</strong>
+      <strong>LinkedIn Profile</strong>
   </a>
 
-  <a href="https://github.com/USERNAME/REPO"
+  <a href="https://github.com/ganesh1603/Code-Review-AgenticAi"
      target="_blank"
      rel="noopener noreferrer"
      style="text-decoration: none; font-size: 16px;">
-     ⚫ <strong>GitHub Repository</strong>
+      <strong>GitHub Repository</strong>
   </a>
 </div>
 """,
